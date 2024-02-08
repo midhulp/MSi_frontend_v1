@@ -49,16 +49,19 @@ export const SideBarDiv = styled.div`
   .navigation-btn {
     font-family: Noah;
     cursor: pointer;
-
     width: 100%;
     font-size: 16px;
     background: none;
     border: none;
     column-gap: 10px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     outline: none;
     color: white;
+  }
+
+  .btn-desc {
+    padding-top: 3px;
   }
 
   .user {
